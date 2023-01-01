@@ -11,6 +11,3 @@ pip install --upgrade google-auth-oauthlib google-auth-httplib2
 ## run with
 `py main.py`
 `python3 main.py`
-
-## donate
-`randomz.eth` or `randomzpay.nft`
