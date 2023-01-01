@@ -11,6 +11,8 @@ WORKDIR /app
 RUN pip install --upgrade pip
 RUN pip install playwright
 RUN playwright install
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install TikTokApi
+RUN pip install --upgrade google-api-python-client
+RUN pip install --upgrade google-auth-oauthlib google-auth-httplib2
 
 CMD ["python3", "main.py"]
